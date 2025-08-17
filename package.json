@@ -1,0 +1,34 @@
+{
+  "name": "shell-casing",
+  "version": "0.1.1",
+  "description": "A lightweight CLI framework for organizing commands into a file-based structure",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "cli",
+    "framework",
+    "commands",
+    "file-based",
+    "typescript"
+  ],
+  "author": "tbeseda",
+  "license": "MIT",
+  "dependencies": {
+    "@bomb.sh/args": "^0.3.1"
+  },
+  "scripts": {
+    "test": "node --test index.test.ts",
+    "lint": "biome ci",
+    "prebuild": "rm -rf dist",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.2.0",
+    "@types/node": "^24.2.1",
+    "typescript": "^5.9.2"
+  }
+}
