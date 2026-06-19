@@ -1,6 +1,6 @@
 {
   "name": "shell-casing",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A lightweight CLI framework for organizing commands into a file-based structure",
   "type": "module",
   "main": "dist/index.js",
