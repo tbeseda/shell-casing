@@ -27,8 +27,8 @@
     "build": "tsc"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.2.0",
-    "@types/node": "^24.2.1",
-    "typescript": "^5.9.2"
+    "@biomejs/biome": "^2.5.0",
+    "@types/node": "^26.0.0",
+    "typescript": "^6.0.3"
   }
 }
