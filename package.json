@@ -23,8 +23,9 @@
   "scripts": {
     "test": "node --test index.test.ts",
     "lint": "biome ci",
+    "typecheck": "tsc",
     "prebuild": "rm -rf dist",
-    "build": "tsc"
+    "build": "tsc -p tsconfig.build.json"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.5.0",

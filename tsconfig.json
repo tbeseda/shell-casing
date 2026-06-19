@@ -10,10 +10,10 @@
     "skipLibCheck": true,
     "isolatedModules": true,
     "verbatimModuleSyntax": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
     "lib": ["ES2024"],
-    "types": ["node"],
-    "outDir": "./dist",
-    "declaration": true
+    "types": ["node"]
   },
-  "include": ["index.ts"]
+  "include": ["index.ts", "index.test.ts", "examples/**/*.ts"]
 }
